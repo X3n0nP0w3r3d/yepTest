@@ -1,0 +1,27 @@
+{
+    "name": "YEP revival",
+    "version": "1.0.0",
+    "description": "Bring back YEP",
+    "permissions": ["storage","declarativeContent","activeTab"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/YEP.png",
+            "32": "images/YEP.png",
+            "48": "images/YEP.png",
+            "128": "images/YEP.png"
+        }
+    },
+    "options_page": "options.html",
+    "icons": {
+        "16": "images/YEP.png",
+        "32": "images/YEP.png",
+        "48": "images/YEP.png",
+        "128": "images/YEP.png"
+    },
+    "manifest_version": 2
+  }
